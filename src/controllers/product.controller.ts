@@ -3,6 +3,11 @@
 import { IncomingMessage, ServerResponse } from 'http';
 
 const productController = (req:IncomingMessage,res:ServerResponse)=>{
+    // /product -> GET, POST, PUT
+    const url = req.url
+    const method = req.method
+
+    
     res.writeHead(200,{"content-type" : "application/json",
 
     })
