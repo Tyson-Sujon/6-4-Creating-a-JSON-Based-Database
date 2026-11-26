@@ -1,4 +1,4 @@
-import { createServer, Server,IncomingMessage, ServerResponse } from "http";
+import { createServer, Server, IncomingMessage, ServerResponse } from "http";
 import routeHandler from "./routes/route";
 
 const server : Server  = createServer((req : IncomingMessage, res : ServerResponse) => {
