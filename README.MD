@@ -41,13 +41,11 @@ To run typescript in node js: npm i tsx
 
 ## **STARTED TUTORIALS:**
 
-6-3: Better File Organizations
+6-4: Creating a JSON Based Database
 
 
 
-// client> route> controller > service >(er por service > controller>client) ai operation korche
+// join() ----> used for add 2 path
 
-
-
-// product.controller file er moddhe sob somoy product er CRUD(e.g:create,get,put,delete ai operation gula rakha hoi)
+// process.cwd() ----> ata holo project er  location ber korar system
 
